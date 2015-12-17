@@ -1,0 +1,15 @@
+{application, 'etweet',
+ [{description, "Erlang Tweeter"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    oauth
+   ]},
+  {env,[]},
+  {modules, []},
+  {contributors, []},
+  {licenses, []},
+  {links, []}
+ ]}.
