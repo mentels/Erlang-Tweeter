@@ -1,4 +1,4 @@
--module(twitter_sample).
+-module(etweet).
 
 -export([user_timeline/0,
          tweet/1]).
