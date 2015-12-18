@@ -27,7 +27,7 @@ consumer() ->
     {oauth_param(consumer_key), oauth_param(consumer_secret), hmac_sha1}.
 
 oauth_param(Key) ->
-    application:get_env(twitter_sample, Key, not_found).
+    application:get_env(etweet, Key, not_found).
         
 
 
